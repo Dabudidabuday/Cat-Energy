@@ -21,7 +21,7 @@ function deleteDistFolder () {
   * @param dist {String}
   */
 function compileScss (source, dist) {
-  return src(source)
+  return src(source, {allowEmpty: true})
     .pipe(sass().on('error', sass.logError))
     .pipe(concat('main.css'))
     .pipe(dest(dist));
