@@ -19,7 +19,7 @@
     "gulp-sass": "^4.0.2"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "nodemon": "^1.19.2",
     "nunjucks": "^3.2.0",
     "path": "^0.12.7"
